@@ -1,24 +1,34 @@
-# Core
-streamlit
-streamlit-lottie
-sounddevice
-vosk
-PyPDF2
-python-dotenv
-requests
+# ===========================
+# Core Web App
+# ===========================
+streamlit>=1.36,<2.0
+streamlit-lottie>=0.0.5,<0.1
+sounddevice>=0.4.6,<0.5
+vosk>=0.3.45,<0.4
+PyPDF2>=3.0.1,<4.0
+python-dotenv>=1.0.1,<2.0
+requests>=2.32.3,<3.0
 
+# ===========================
 # NLP + Transformers
-transformers
-sentencepiece
-torch==2.5.0
-faiss-cpu
-pypdf
-sentence-transformers
-google-generativeai
+# ===========================
+transformers>=4.41.2,<5.0
+sentencepiece>=0.2.0,<0.3
+torch==2.5.0          # Compatible with Render Python 3.10/3.11
+faiss-cpu>=1.8.0,<2.0
+pypdf>=4.2.0,<5.0
+sentence-transformers>=3.0.1,<4.0
+google-generativeai>=0.7.2,<1.0
 
-# LangChain ecosystem (matching versions)
-langchain==0.2.14
-langchain-community==0.2.14
+# ===========================
+# LangChain ecosystem
+# ===========================
+langchain==0.2.15
+langchain-community==0.2.15
 
+# ===========================
 # Data handling
-dataclasses-json
+# ===========================
+dataclasses-json>=0.6.7,<0.7
+tenacity>=8.5.0,<9.0
+pydantic>=2.11.0,<3.0
