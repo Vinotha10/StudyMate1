@@ -12,4 +12,6 @@ pypdf
 sentence-transformers
 google-generativeai
 streamlit-lottie
+langchain-community
+langchain
 
