@@ -11,3 +11,5 @@ faiss-cpu
 pypdf
 sentence-transformers
 google-generativeai
+streamlit-lottie
+
