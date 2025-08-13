@@ -1,16 +1,24 @@
-streamlit==1.37.0
-sounddevice==0.4.6
-vosk==0.3.45
-PyPDF2==3.0.1
-python-dotenv==1.0.1
-requests==2.31.0
-transformers==4.39.3
-sentencepiece==0.1.99
+# Core
+streamlit
+streamlit-lottie
+sounddevice
+vosk
+PyPDF2
+python-dotenv
+requests
+
+# NLP + Transformers
+transformers
+sentencepiece
 torch==2.5.0
-faiss-cpu==1.7.4
-pypdf==4.2.0
-sentence-transformers==2.7.0
-google-generativeai==0.5.4
-streamlit-lottie==0.0.5
-langchain-community==0.2.12
-langchain==0.2.12
+faiss-cpu
+pypdf
+sentence-transformers
+google-generativeai
+
+# LangChain ecosystem (matching versions)
+langchain==0.2.14
+langchain-community==0.2.14
+
+# Data handling
+dataclasses-json
