@@ -1,0 +1,13 @@
+streamlit
+sounddevice
+vosk
+PyPDF2
+python-dotenv
+requests
+transformers
+sentencepiece
+torch
+faiss-cpu
+pypdf
+sentence-transformers
+google-generativeai
